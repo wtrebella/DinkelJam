@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 6822384efbcba4c53b5ee6c006627ee2
+timeCreated: 1515126136
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Ranger
+  fontNames:
+  - Ranger
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 5885bfd137ed6435c9a3ab636352e945, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 0
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
