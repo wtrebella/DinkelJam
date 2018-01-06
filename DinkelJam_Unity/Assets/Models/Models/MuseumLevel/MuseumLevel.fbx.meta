@@ -78,6 +78,30 @@ ModelImporter:
     100140: Painting7
     100142: Painting8
     100144: Painting9
+    100146: BaseSculpt_Male2
+    100148: BaseSculpt_Male3
+    100150: Mesh2
+    100152: Painting11
+    100154: Painting12
+    100156: Wall2
+    100158: Wall3
+    100160: Wall4
+    100162: Wall_Door2
+    100164: Wall_Door3
+    100166: Light4
+    100168: Spot Light4
+    100170: Light10
+    100172: Light5
+    100174: Light6
+    100176: Light7
+    100178: Light8
+    100180: Light9
+    100182: Spot Light10
+    100184: Spot Light5
+    100186: Spot Light6
+    100188: Spot Light7
+    100190: Spot Light8
+    100192: Spot Light9
     400000: BaseSculpt_Male
     400002: Ceiling
     400004: Ceiling10
@@ -151,6 +175,30 @@ ModelImporter:
     400140: Painting7
     400142: Painting8
     400144: Painting9
+    400146: BaseSculpt_Male2
+    400148: BaseSculpt_Male3
+    400150: Mesh2
+    400152: Painting11
+    400154: Painting12
+    400156: Wall2
+    400158: Wall3
+    400160: Wall4
+    400162: Wall_Door2
+    400164: Wall_Door3
+    400166: Light4
+    400168: Spot Light4
+    400170: Light10
+    400172: Light5
+    400174: Light6
+    400176: Light7
+    400178: Light8
+    400180: Light9
+    400182: Spot Light10
+    400184: Spot Light5
+    400186: Spot Light6
+    400188: Spot Light7
+    400190: Spot Light8
+    400192: Spot Light9
     2100000: Dude
     2100002: Default
     2100004: FPSScale
@@ -158,6 +206,7 @@ ModelImporter:
     2100008: PaintingsMat
     2100010: Lights
     2100012: lightbulb
+    2100014: Room
     2300000: BaseSculpt_Male
     2300002: Ceiling
     2300004: Ceiling10
@@ -214,6 +263,22 @@ ModelImporter:
     2300106: Painting7
     2300108: Painting8
     2300110: Painting9
+    2300112: BaseSculpt_Male2
+    2300114: BaseSculpt_Male3
+    2300116: Painting11
+    2300118: Painting12
+    2300120: Wall2
+    2300122: Wall3
+    2300124: Wall4
+    2300126: Wall_Door2
+    2300128: Wall_Door3
+    2300130: Light4
+    2300132: Light10
+    2300134: Light5
+    2300136: Light6
+    2300138: Light7
+    2300140: Light8
+    2300142: Light9
     3300000: BaseSculpt_Male
     3300002: Ceiling
     3300004: Ceiling10
@@ -270,6 +335,22 @@ ModelImporter:
     3300106: Painting7
     3300108: Painting8
     3300110: Painting9
+    3300112: BaseSculpt_Male2
+    3300114: BaseSculpt_Male3
+    3300116: Painting11
+    3300118: Painting12
+    3300120: Wall2
+    3300122: Wall3
+    3300124: Wall4
+    3300126: Wall_Door2
+    3300128: Wall_Door3
+    3300130: Light4
+    3300132: Light10
+    3300134: Light5
+    3300136: Light6
+    3300138: Light7
+    3300140: Light8
+    3300142: Light9
     4300000: BaseSculpt_Male
     4300002: Shell
     4300004: Wall
@@ -312,11 +393,20 @@ ModelImporter:
     4300078: Pedestal4
     4300080: Wall_Door
     4300082: Light
+    4300084: BaseSculpt_Male2
+    4300086: BaseSculpt_Male3
     10800000: Directional Light
     10800002: Directional Light2
     10800004: Spot Light
     10800006: Spot Light2
     10800008: Spot Light3
+    10800010: Spot Light4
+    10800012: Spot Light10
+    10800014: Spot Light5
+    10800016: Spot Light6
+    10800018: Spot Light7
+    10800020: Spot Light8
+    10800022: Spot Light9
   externalObjects: {}
   materials:
     importMaterials: 1

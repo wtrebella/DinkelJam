@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientSkyColor: {r: 0.18382353, g: 0.18382353, b: 0.18382353, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 0.5
-  m_AmbientMode: 0
+  m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: cd35675b9c1b3e1438e4ad419ef7f026, type: 2}
   m_HaloStrength: 0.5
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.112364404, g: 0.17820886, b: 0.26602295, a: 1}
+  m_IndirectSpecularColor: {r: 0.047483668, g: 0.0804433, b: 0.12172323, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -549,6 +549,90 @@ Prefab:
     - target: {fileID: 100116, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100148, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100156, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100152, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100162, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100160, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100146, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100154, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100158, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100150, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100164, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100094, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800004, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 0.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800008, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 0.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800010, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 0.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800006, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_BounceIntensity
+      value: 0.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800010, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800004, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_SpotAngle
+      value: 27.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_Color.r
+      value: 0.13909768
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_Color.g
+      value: 0.06842625
+      objectReference: {fileID: 0}
+    - target: {fileID: 10800000, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 908ae1f9035423743accd4ba9a7eadef, type: 3}
