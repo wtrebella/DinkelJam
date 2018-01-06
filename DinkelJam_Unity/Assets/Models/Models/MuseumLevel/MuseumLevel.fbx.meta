@@ -1,0 +1,399 @@
+fileFormatVersion: 2
+guid: 908ae1f9035423743accd4ba9a7eadef
+timeCreated: 1515265383
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BaseSculpt_Male
+    100002: Ceiling
+    100004: Ceiling10
+    100006: Ceiling11
+    100008: Ceiling12
+    100010: Ceiling13
+    100012: Ceiling14
+    100014: Ceiling15
+    100016: Ceiling16
+    100018: Ceiling17
+    100020: Ceiling18
+    100022: Ceiling19
+    100024: Ceiling2
+    100026: Ceiling20
+    100028: Ceiling21
+    100030: Ceiling22
+    100032: Ceiling23
+    100034: Ceiling24
+    100036: Ceiling25
+    100038: Ceiling26
+    100040: Ceiling27
+    100042: Ceiling28
+    100044: Ceiling29
+    100046: Ceiling3
+    100048: Ceiling30
+    100050: Ceiling4
+    100052: Ceiling5
+    100054: Ceiling6
+    100056: Ceiling7
+    100058: Ceiling8
+    100060: Ceiling9
+    100062: Ceiling_shards
+    100064: Door
+    100066: Door_Fake
+    100068: Door_Fake2
+    100070: FPSWorldScale.lxp3
+    100072: //RootNode
+    100074: Pedestal
+    100076: Pedestal2
+    100078: Pedestal3
+    100080: Pedestal4
+    100082: Shell
+    100084: Texture Group
+    100086: Wall
+    100088: Floor
+    100090: WallsShell
+    100092: Window
+    100094: Directional Light
+    100096: Directional Light2
+    100098: Fake Doors
+    100100: Lights2
+    100102: Mesh
+    100104: Painting
+    100106: Pedestals
+    100108: Room
+    100110: Wall_Door
+    100112: Wall_Objects
+    100114: Walls2
+    100116: Spot Light
+    100118: Light
+    100120: Light2
+    100122: Light3
+    100124: Spot Light2
+    100126: Spot Light3
+    100128: Painting10
+    100130: Painting2
+    100132: Painting3
+    100134: Painting4
+    100136: Painting5
+    100138: Painting6
+    100140: Painting7
+    100142: Painting8
+    100144: Painting9
+    400000: BaseSculpt_Male
+    400002: Ceiling
+    400004: Ceiling10
+    400006: Ceiling11
+    400008: Ceiling12
+    400010: Ceiling13
+    400012: Ceiling14
+    400014: Ceiling15
+    400016: Ceiling16
+    400018: Ceiling17
+    400020: Ceiling18
+    400022: Ceiling19
+    400024: Ceiling2
+    400026: Ceiling20
+    400028: Ceiling21
+    400030: Ceiling22
+    400032: Ceiling23
+    400034: Ceiling24
+    400036: Ceiling25
+    400038: Ceiling26
+    400040: Ceiling27
+    400042: Ceiling28
+    400044: Ceiling29
+    400046: Ceiling3
+    400048: Ceiling30
+    400050: Ceiling4
+    400052: Ceiling5
+    400054: Ceiling6
+    400056: Ceiling7
+    400058: Ceiling8
+    400060: Ceiling9
+    400062: Ceiling_shards
+    400064: Door
+    400066: Door_Fake
+    400068: Door_Fake2
+    400070: FPSWorldScale.lxp3
+    400072: //RootNode
+    400074: Pedestal
+    400076: Pedestal2
+    400078: Pedestal3
+    400080: Pedestal4
+    400082: Shell
+    400084: Texture Group
+    400086: Wall
+    400088: Floor
+    400090: WallsShell
+    400092: Window
+    400094: Directional Light
+    400096: Directional Light2
+    400098: Fake Doors
+    400100: Lights2
+    400102: Mesh
+    400104: Painting
+    400106: Pedestals
+    400108: Room
+    400110: Wall_Door
+    400112: Wall_Objects
+    400114: Walls2
+    400116: Spot Light
+    400118: Light
+    400120: Light2
+    400122: Light3
+    400124: Spot Light2
+    400126: Spot Light3
+    400128: Painting10
+    400130: Painting2
+    400132: Painting3
+    400134: Painting4
+    400136: Painting5
+    400138: Painting6
+    400140: Painting7
+    400142: Painting8
+    400144: Painting9
+    2100000: Dude
+    2100002: Default
+    2100004: FPSScale
+    2100006: windows
+    2100008: PaintingsMat
+    2100010: Lights
+    2100012: lightbulb
+    2300000: BaseSculpt_Male
+    2300002: Ceiling
+    2300004: Ceiling10
+    2300006: Ceiling11
+    2300008: Ceiling12
+    2300010: Ceiling13
+    2300012: Ceiling14
+    2300014: Ceiling15
+    2300016: Ceiling16
+    2300018: Ceiling17
+    2300020: Ceiling18
+    2300022: Ceiling19
+    2300024: Ceiling2
+    2300026: Ceiling20
+    2300028: Ceiling21
+    2300030: Ceiling22
+    2300032: Ceiling23
+    2300034: Ceiling24
+    2300036: Ceiling25
+    2300038: Ceiling26
+    2300040: Ceiling27
+    2300042: Ceiling28
+    2300044: Ceiling29
+    2300046: Ceiling30
+    2300048: Ceiling4
+    2300050: Ceiling5
+    2300052: Ceiling6
+    2300054: Ceiling7
+    2300056: Ceiling8
+    2300058: Ceiling9
+    2300060: Door
+    2300062: Door_Fake
+    2300064: Door_Fake2
+    2300066: Pedestal
+    2300068: Pedestal2
+    2300070: Pedestal3
+    2300072: Pedestal4
+    2300074: Shell
+    2300076: Wall
+    2300078: Floor
+    2300080: WallsShell
+    2300082: Window
+    2300084: Painting
+    2300086: Wall_Door
+    2300088: Light
+    2300090: Light2
+    2300092: Light3
+    2300094: Painting10
+    2300096: Painting2
+    2300098: Painting3
+    2300100: Painting4
+    2300102: Painting5
+    2300104: Painting6
+    2300106: Painting7
+    2300108: Painting8
+    2300110: Painting9
+    3300000: BaseSculpt_Male
+    3300002: Ceiling
+    3300004: Ceiling10
+    3300006: Ceiling11
+    3300008: Ceiling12
+    3300010: Ceiling13
+    3300012: Ceiling14
+    3300014: Ceiling15
+    3300016: Ceiling16
+    3300018: Ceiling17
+    3300020: Ceiling18
+    3300022: Ceiling19
+    3300024: Ceiling2
+    3300026: Ceiling20
+    3300028: Ceiling21
+    3300030: Ceiling22
+    3300032: Ceiling23
+    3300034: Ceiling24
+    3300036: Ceiling25
+    3300038: Ceiling26
+    3300040: Ceiling27
+    3300042: Ceiling28
+    3300044: Ceiling29
+    3300046: Ceiling30
+    3300048: Ceiling4
+    3300050: Ceiling5
+    3300052: Ceiling6
+    3300054: Ceiling7
+    3300056: Ceiling8
+    3300058: Ceiling9
+    3300060: Door
+    3300062: Door_Fake
+    3300064: Door_Fake2
+    3300066: Pedestal
+    3300068: Pedestal2
+    3300070: Pedestal3
+    3300072: Pedestal4
+    3300074: Shell
+    3300076: Wall
+    3300078: Floor
+    3300080: WallsShell
+    3300082: Window
+    3300084: Painting
+    3300086: Wall_Door
+    3300088: Light
+    3300090: Light2
+    3300092: Light3
+    3300094: Painting10
+    3300096: Painting2
+    3300098: Painting3
+    3300100: Painting4
+    3300102: Painting5
+    3300104: Painting6
+    3300106: Painting7
+    3300108: Painting8
+    3300110: Painting9
+    4300000: BaseSculpt_Male
+    4300002: Shell
+    4300004: Wall
+    4300006: Door
+    4300008: Door_Fake
+    4300010: Pedestal
+    4300012: Ceiling
+    4300014: Ceiling2
+    4300016: Ceiling4
+    4300018: Ceiling5
+    4300020: Ceiling6
+    4300022: Ceiling7
+    4300024: Ceiling8
+    4300026: Ceiling9
+    4300028: Ceiling10
+    4300030: Ceiling11
+    4300032: Ceiling12
+    4300034: Ceiling13
+    4300036: Ceiling14
+    4300038: Ceiling15
+    4300040: Ceiling16
+    4300042: Ceiling17
+    4300044: Ceiling18
+    4300046: Ceiling19
+    4300048: Ceiling20
+    4300050: Ceiling21
+    4300052: Ceiling22
+    4300054: Ceiling23
+    4300056: Ceiling24
+    4300058: Ceiling25
+    4300060: Ceiling26
+    4300062: Ceiling27
+    4300064: Ceiling28
+    4300066: Ceiling29
+    4300068: Ceiling30
+    4300070: WallsShell
+    4300072: Floor
+    4300074: Window
+    4300076: Painting
+    4300078: Pedestal4
+    4300080: Wall_Door
+    4300082: Light
+    10800000: Directional Light
+    10800002: Directional Light2
+    10800004: Spot Light
+    10800006: Spot Light2
+    10800008: Spot Light3
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
