@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class GameManager : Singleton<GameManager> {
 
-   void Awake()
-   {
-      MakePersistent();  
-   }
+	[SerializeField] ModelSpawner _modelSpawner;
+	public ModelSpawner Spawner { get { return _modelSpawner; }}
+
+    void Awake()
+    {
+		MakePersistent();  
+    }
 
 	void Start() {
 		GameAudio.PlayOneShot("Music");
