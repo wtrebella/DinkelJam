@@ -1,437 +1,240 @@
 fileFormatVersion: 2
 guid: 908ae1f9035423743accd4ba9a7eadef
-timeCreated: 1515265383
+timeCreated: 1515348470
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: BaseSculpt_Male
-    100002: Ceiling
-    100004: Ceiling10
-    100006: Ceiling11
-    100008: Ceiling12
-    100010: Ceiling13
-    100012: Ceiling14
-    100014: Ceiling15
-    100016: Ceiling16
-    100018: Ceiling17
-    100020: Ceiling18
-    100022: Ceiling19
-    100024: Ceiling2
-    100026: Ceiling20
-    100028: Ceiling21
-    100030: Ceiling22
-    100032: Ceiling23
-    100034: Ceiling24
-    100036: Ceiling25
-    100038: Ceiling26
-    100040: Ceiling27
-    100042: Ceiling28
-    100044: Ceiling29
-    100046: Ceiling3
-    100048: Ceiling30
-    100050: Ceiling4
-    100052: Ceiling5
-    100054: Ceiling6
-    100056: Ceiling7
-    100058: Ceiling8
-    100060: Ceiling9
-    100062: Ceiling_shards
-    100064: Door
-    100066: Door_Fake
-    100068: Door_Fake2
-    100070: FPSWorldScale.lxp3
-    100072: //RootNode
-    100074: Pedestal
-    100076: Pedestal2
-    100078: Pedestal3
-    100080: Pedestal4
-    100082: Shell
-    100084: Texture Group
-    100086: Wall
-    100088: Floor
-    100090: WallsShell
-    100092: Window
-    100094: Directional Light
-    100096: Directional Light2
-    100098: Fake Doors
-    100100: Lights2
-    100102: Mesh
-    100104: Painting
-    100106: Pedestals
-    100108: Room
-    100110: Wall_Door
-    100112: Wall_Objects
-    100114: Walls2
-    100116: Spot Light
-    100118: Light
-    100120: Light2
-    100122: Light3
-    100124: Spot Light2
-    100126: Spot Light3
-    100128: Painting10
-    100130: Painting2
-    100132: Painting3
-    100134: Painting4
-    100136: Painting5
-    100138: Painting6
-    100140: Painting7
-    100142: Painting8
-    100144: Painting9
-    100146: BaseSculpt_Male2
-    100148: BaseSculpt_Male3
-    100150: Mesh2
-    100152: Painting11
-    100154: Painting12
-    100156: Wall2
-    100158: Wall3
-    100160: Wall4
-    100162: Wall_Door2
-    100164: Wall_Door3
-    100166: Light4
-    100168: Spot Light4
-    100170: Light10
-    100172: Light5
-    100174: Light6
-    100176: Light7
-    100178: Light8
-    100180: Light9
-    100182: Spot Light10
-    100184: Spot Light5
-    100186: Spot Light6
-    100188: Spot Light7
-    100190: Spot Light8
-    100192: Spot Light9
-    100194: ScaleBoy
-    100196: Pedestal5
-    100198: Pedestal6
-    100200: Pedestal7
-    100202: Pedestal8
-    100204: Pedestal9
-    400000: BaseSculpt_Male
-    400002: Ceiling
-    400004: Ceiling10
-    400006: Ceiling11
-    400008: Ceiling12
-    400010: Ceiling13
-    400012: Ceiling14
-    400014: Ceiling15
-    400016: Ceiling16
-    400018: Ceiling17
-    400020: Ceiling18
-    400022: Ceiling19
-    400024: Ceiling2
-    400026: Ceiling20
-    400028: Ceiling21
-    400030: Ceiling22
-    400032: Ceiling23
-    400034: Ceiling24
-    400036: Ceiling25
-    400038: Ceiling26
-    400040: Ceiling27
-    400042: Ceiling28
-    400044: Ceiling29
-    400046: Ceiling3
-    400048: Ceiling30
-    400050: Ceiling4
-    400052: Ceiling5
-    400054: Ceiling6
-    400056: Ceiling7
-    400058: Ceiling8
-    400060: Ceiling9
-    400062: Ceiling_shards
-    400064: Door
-    400066: Door_Fake
-    400068: Door_Fake2
-    400070: FPSWorldScale.lxp3
-    400072: //RootNode
-    400074: Pedestal
-    400076: Pedestal2
-    400078: Pedestal3
-    400080: Pedestal4
-    400082: Shell
-    400084: Texture Group
-    400086: Wall
-    400088: Floor
-    400090: WallsShell
-    400092: Window
-    400094: Directional Light
-    400096: Directional Light2
-    400098: Fake Doors
-    400100: Lights2
-    400102: Mesh
-    400104: Painting
-    400106: Pedestals
-    400108: Room
-    400110: Wall_Door
-    400112: Wall_Objects
-    400114: Walls2
-    400116: Spot Light
-    400118: Light
-    400120: Light2
-    400122: Light3
-    400124: Spot Light2
-    400126: Spot Light3
-    400128: Painting10
-    400130: Painting2
-    400132: Painting3
-    400134: Painting4
-    400136: Painting5
-    400138: Painting6
-    400140: Painting7
-    400142: Painting8
-    400144: Painting9
-    400146: BaseSculpt_Male2
-    400148: BaseSculpt_Male3
-    400150: Mesh2
-    400152: Painting11
-    400154: Painting12
-    400156: Wall2
-    400158: Wall3
-    400160: Wall4
-    400162: Wall_Door2
-    400164: Wall_Door3
-    400166: Light4
-    400168: Spot Light4
-    400170: Light10
-    400172: Light5
-    400174: Light6
-    400176: Light7
-    400178: Light8
-    400180: Light9
-    400182: Spot Light10
-    400184: Spot Light5
-    400186: Spot Light6
-    400188: Spot Light7
-    400190: Spot Light8
-    400192: Spot Light9
-    400194: ScaleBoy
-    400196: Pedestal5
-    400198: Pedestal6
-    400200: Pedestal7
-    400202: Pedestal8
-    400204: Pedestal9
-    2100000: Dude
-    2100002: Default
-    2100004: FPSScale
-    2100006: windows
-    2100008: PaintingsMat
-    2100010: Lights
-    2100012: lightbulb
-    2100014: Room
-    2300000: BaseSculpt_Male
-    2300002: Ceiling
-    2300004: Ceiling10
-    2300006: Ceiling11
-    2300008: Ceiling12
-    2300010: Ceiling13
-    2300012: Ceiling14
-    2300014: Ceiling15
-    2300016: Ceiling16
-    2300018: Ceiling17
-    2300020: Ceiling18
-    2300022: Ceiling19
-    2300024: Ceiling2
-    2300026: Ceiling20
-    2300028: Ceiling21
-    2300030: Ceiling22
-    2300032: Ceiling23
-    2300034: Ceiling24
-    2300036: Ceiling25
-    2300038: Ceiling26
-    2300040: Ceiling27
-    2300042: Ceiling28
-    2300044: Ceiling29
-    2300046: Ceiling30
-    2300048: Ceiling4
-    2300050: Ceiling5
-    2300052: Ceiling6
-    2300054: Ceiling7
-    2300056: Ceiling8
-    2300058: Ceiling9
-    2300060: Door
-    2300062: Door_Fake
-    2300064: Door_Fake2
-    2300066: Pedestal
-    2300068: Pedestal2
-    2300070: Pedestal3
-    2300072: Pedestal4
-    2300074: Shell
-    2300076: Wall
-    2300078: Floor
+    100000: BulletProofPedestal2
+    100002: BulletProofPedestal3
+    100004: BulletProofPedestal4
+    100006: BulletProofPedestal5
+    100008: Ceiling2
+    100010: Directional Light
+    100012: Door_Fake
+    100014: Door_Fake2
+    100016: Fake Doors
+    100018: Floor
+    100020: FPSWorldScale.lxp3
+    100022: Light
+    100024: Light2
+    100026: Light3
+    100028: Light4
+    100030: Light5
+    100032: Light6
+    100034: Light7
+    100036: Light8
+    100038: Light9
+    100040: Lights2
+    100042: //RootNode
+    100044: Painting
+    100046: Painting10
+    100048: Painting12
+    100050: Painting2
+    100052: Painting3
+    100054: Painting5
+    100056: Painting6
+    100058: Painting7
+    100060: Painting8
+    100062: Painting9
+    100064: Pedestal
+    100066: Pedestal2
+    100068: Pedestal3
+    100070: Pedestal5
+    100072: Pedestal9
+    100074: Pedestals
+    100076: Room
+    100078: ScaleBoy
+    100080: Spot Light
+    100082: Spot Light2
+    100084: Spot Light3
+    100086: Spot Light4
+    100088: Spot Light5
+    100090: Spot Light6
+    100092: Spot Light7
+    100094: Spot Light8
+    100096: Spot Light9
+    100098: Texture Group
+    100100: Wall
+    100102: Wall2
+    100104: Wall3
+    100106: Wall4
+    100108: Wall_Door
+    100110: Wall_Door2
+    100112: Wall_Door3
+    100114: Wall_Objects
+    100116: Walls2
+    100118: WallsShell
+    100120: Window
+    400000: BulletProofPedestal2
+    400002: BulletProofPedestal3
+    400004: BulletProofPedestal4
+    400006: BulletProofPedestal5
+    400008: Ceiling2
+    400010: Directional Light
+    400012: Door_Fake
+    400014: Door_Fake2
+    400016: Fake Doors
+    400018: Floor
+    400020: FPSWorldScale.lxp3
+    400022: Light
+    400024: Light2
+    400026: Light3
+    400028: Light4
+    400030: Light5
+    400032: Light6
+    400034: Light7
+    400036: Light8
+    400038: Light9
+    400040: Lights2
+    400042: //RootNode
+    400044: Painting
+    400046: Painting10
+    400048: Painting12
+    400050: Painting2
+    400052: Painting3
+    400054: Painting5
+    400056: Painting6
+    400058: Painting7
+    400060: Painting8
+    400062: Painting9
+    400064: Pedestal
+    400066: Pedestal2
+    400068: Pedestal3
+    400070: Pedestal5
+    400072: Pedestal9
+    400074: Pedestals
+    400076: Room
+    400078: ScaleBoy
+    400080: Spot Light
+    400082: Spot Light2
+    400084: Spot Light3
+    400086: Spot Light4
+    400088: Spot Light5
+    400090: Spot Light6
+    400092: Spot Light7
+    400094: Spot Light8
+    400096: Spot Light9
+    400098: Texture Group
+    400100: Wall
+    400102: Wall2
+    400104: Wall3
+    400106: Wall4
+    400108: Wall_Door
+    400110: Wall_Door2
+    400112: Wall_Door3
+    400114: Wall_Objects
+    400116: Walls2
+    400118: WallsShell
+    400120: Window
+    2300000: BulletProofPedestal2
+    2300002: BulletProofPedestal3
+    2300004: BulletProofPedestal4
+    2300006: BulletProofPedestal5
+    2300008: Ceiling2
+    2300010: Door_Fake
+    2300012: Door_Fake2
+    2300014: Floor
+    2300016: Light
+    2300018: Light2
+    2300020: Light3
+    2300022: Light4
+    2300024: Light5
+    2300026: Light6
+    2300028: Light7
+    2300030: Light8
+    2300032: Light9
+    2300034: Painting
+    2300036: Painting10
+    2300038: Painting12
+    2300040: Painting2
+    2300042: Painting3
+    2300044: Painting5
+    2300046: Painting6
+    2300048: Painting7
+    2300050: Painting8
+    2300052: Painting9
+    2300054: Pedestal
+    2300056: Pedestal2
+    2300058: Pedestal3
+    2300060: Pedestal5
+    2300062: Pedestal9
+    2300064: ScaleBoy
+    2300066: Wall
+    2300068: Wall2
+    2300070: Wall3
+    2300072: Wall4
+    2300074: Wall_Door
+    2300076: Wall_Door2
+    2300078: Wall_Door3
     2300080: WallsShell
     2300082: Window
-    2300084: Painting
-    2300086: Wall_Door
-    2300088: Light
-    2300090: Light2
-    2300092: Light3
-    2300094: Painting10
-    2300096: Painting2
-    2300098: Painting3
-    2300100: Painting4
-    2300102: Painting5
-    2300104: Painting6
-    2300106: Painting7
-    2300108: Painting8
-    2300110: Painting9
-    2300112: BaseSculpt_Male2
-    2300114: BaseSculpt_Male3
-    2300116: Painting11
-    2300118: Painting12
-    2300120: Wall2
-    2300122: Wall3
-    2300124: Wall4
-    2300126: Wall_Door2
-    2300128: Wall_Door3
-    2300130: Light4
-    2300132: Light10
-    2300134: Light5
-    2300136: Light6
-    2300138: Light7
-    2300140: Light8
-    2300142: Light9
-    2300144: ScaleBoy
-    2300146: Pedestal5
-    2300148: Pedestal6
-    2300150: Pedestal7
-    2300152: Pedestal8
-    2300154: Pedestal9
-    3300000: BaseSculpt_Male
-    3300002: Ceiling
-    3300004: Ceiling10
-    3300006: Ceiling11
-    3300008: Ceiling12
-    3300010: Ceiling13
-    3300012: Ceiling14
-    3300014: Ceiling15
-    3300016: Ceiling16
-    3300018: Ceiling17
-    3300020: Ceiling18
-    3300022: Ceiling19
-    3300024: Ceiling2
-    3300026: Ceiling20
-    3300028: Ceiling21
-    3300030: Ceiling22
-    3300032: Ceiling23
-    3300034: Ceiling24
-    3300036: Ceiling25
-    3300038: Ceiling26
-    3300040: Ceiling27
-    3300042: Ceiling28
-    3300044: Ceiling29
-    3300046: Ceiling30
-    3300048: Ceiling4
-    3300050: Ceiling5
-    3300052: Ceiling6
-    3300054: Ceiling7
-    3300056: Ceiling8
-    3300058: Ceiling9
-    3300060: Door
-    3300062: Door_Fake
-    3300064: Door_Fake2
-    3300066: Pedestal
-    3300068: Pedestal2
-    3300070: Pedestal3
-    3300072: Pedestal4
-    3300074: Shell
-    3300076: Wall
-    3300078: Floor
+    3300000: BulletProofPedestal2
+    3300002: BulletProofPedestal3
+    3300004: BulletProofPedestal4
+    3300006: BulletProofPedestal5
+    3300008: Ceiling2
+    3300010: Door_Fake
+    3300012: Door_Fake2
+    3300014: Floor
+    3300016: Light
+    3300018: Light2
+    3300020: Light3
+    3300022: Light4
+    3300024: Light5
+    3300026: Light6
+    3300028: Light7
+    3300030: Light8
+    3300032: Light9
+    3300034: Painting
+    3300036: Painting10
+    3300038: Painting12
+    3300040: Painting2
+    3300042: Painting3
+    3300044: Painting5
+    3300046: Painting6
+    3300048: Painting7
+    3300050: Painting8
+    3300052: Painting9
+    3300054: Pedestal
+    3300056: Pedestal2
+    3300058: Pedestal3
+    3300060: Pedestal5
+    3300062: Pedestal9
+    3300064: ScaleBoy
+    3300066: Wall
+    3300068: Wall2
+    3300070: Wall3
+    3300072: Wall4
+    3300074: Wall_Door
+    3300076: Wall_Door2
+    3300078: Wall_Door3
     3300080: WallsShell
     3300082: Window
-    3300084: Painting
-    3300086: Wall_Door
-    3300088: Light
-    3300090: Light2
-    3300092: Light3
-    3300094: Painting10
-    3300096: Painting2
-    3300098: Painting3
-    3300100: Painting4
-    3300102: Painting5
-    3300104: Painting6
-    3300106: Painting7
-    3300108: Painting8
-    3300110: Painting9
-    3300112: BaseSculpt_Male2
-    3300114: BaseSculpt_Male3
-    3300116: Painting11
-    3300118: Painting12
-    3300120: Wall2
-    3300122: Wall3
-    3300124: Wall4
-    3300126: Wall_Door2
-    3300128: Wall_Door3
-    3300130: Light4
-    3300132: Light10
-    3300134: Light5
-    3300136: Light6
-    3300138: Light7
-    3300140: Light8
-    3300142: Light9
-    3300144: ScaleBoy
-    3300146: Pedestal5
-    3300148: Pedestal6
-    3300150: Pedestal7
-    3300152: Pedestal8
-    3300154: Pedestal9
-    4300000: BaseSculpt_Male
-    4300002: Shell
-    4300004: Wall
-    4300006: Door
-    4300008: Door_Fake
-    4300010: Pedestal
-    4300012: Ceiling
-    4300014: Ceiling2
-    4300016: Ceiling4
-    4300018: Ceiling5
-    4300020: Ceiling6
-    4300022: Ceiling7
-    4300024: Ceiling8
-    4300026: Ceiling9
-    4300028: Ceiling10
-    4300030: Ceiling11
-    4300032: Ceiling12
-    4300034: Ceiling13
-    4300036: Ceiling14
-    4300038: Ceiling15
-    4300040: Ceiling16
-    4300042: Ceiling17
-    4300044: Ceiling18
-    4300046: Ceiling19
-    4300048: Ceiling20
-    4300050: Ceiling21
-    4300052: Ceiling22
-    4300054: Ceiling23
-    4300056: Ceiling24
-    4300058: Ceiling25
-    4300060: Ceiling26
-    4300062: Ceiling27
-    4300064: Ceiling28
-    4300066: Ceiling29
-    4300068: Ceiling30
-    4300070: WallsShell
-    4300072: Floor
-    4300074: Window
-    4300076: Painting
-    4300078: Pedestal4
-    4300080: Wall_Door
-    4300082: Light
-    4300084: BaseSculpt_Male2
-    4300086: BaseSculpt_Male3
-    4300088: ScaleBoy
+    4300000: ScaleBoy
+    4300002: Floor
+    4300004: Window
+    4300006: WallsShell
+    4300008: Ceiling2
+    4300010: Painting
+    4300012: Pedestal3
+    4300014: BulletProofPedestal2
+    4300016: Wall_Door
+    4300018: Wall
+    4300020: Door_Fake
+    4300022: Light
+    4300024: Wall3
+    4300026: Wall4
     10800000: Directional Light
-    10800002: Directional Light2
-    10800004: Spot Light
-    10800006: Spot Light2
-    10800008: Spot Light3
-    10800010: Spot Light4
-    10800012: Spot Light10
-    10800014: Spot Light5
-    10800016: Spot Light6
-    10800018: Spot Light7
-    10800020: Spot Light8
-    10800022: Spot Light9
+    10800002: Spot Light
+    10800004: Spot Light2
+    10800006: Spot Light3
+    10800008: Spot Light4
+    10800010: Spot Light5
+    10800012: Spot Light6
+    10800014: Spot Light7
+    10800016: Spot Light8
+    10800018: Spot Light9
   externalObjects: {}
   materials:
     importMaterials: 1
