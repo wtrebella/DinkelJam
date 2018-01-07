@@ -22,6 +22,7 @@ public class ModelSpawner : MonoBehaviour {
 		ModelPair pair = _spawningPairs[randomIndex];
 
 		GameObject.Instantiate(pair._modelPrefab, refSpawnLoc.position, Quaternion.identity);
-		GameObject.Instantiate(pair._destructiblePrefab, playerSpawnLoc.position, Quaternion.identity);
+		GameObject spawnedBlock = GameObject.Instantiate(pair._destructiblePrefab, playerSpawnLoc.position, Quaternion.identity);
+		spawnedBlock.SetActive(true);
 	}
 }
