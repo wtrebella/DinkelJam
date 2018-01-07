@@ -8,4 +8,8 @@ public class GameManager : Singleton<GameManager> {
    {
       MakePersistent();  
    }
+
+	void Start() {
+		GameAudio.PlayOneShot("Music");
+	}
 }
