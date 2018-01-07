@@ -24,7 +24,49 @@
 		<property name="Metallic" value="0.0"/>
 		<property name="Roughness" value="0.0"/>
 	</Material>
+	<Material ID="Unity_Material11" ptag="Knob" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
 	<Material ID="Unity_Material8" ptag="DisplayGlass" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity_Material10" ptag="Door" type="unityShader">
 		<property name="Detail Normal" value="0.0"/>
 		<property name="Bump" value="0.0"/>
 		<property name="Normal" value="0.0"/>
@@ -57,6 +99,29 @@
 		<property name="Emission" value="0.0, 0.0, 0.0"/>
 		<property name="Normal Scale" value="1.0"/>
 		<property name="Albedo" value="1.0, 1.0, 1.0"/>
+		<property name="Ambient Occlusion" value="0.0"/>
+		<property name="Opacity" value="1.0"/>
+		<property name="Smoothness" value="0.5"/>
+		<property name="Detail Albedo x2" value="0.0"/>
+		<property name="Emissive Level" value="1.0"/>
+		<property name="Height Scale" value="0.02"/>
+		<property name="Metallic" value="0.0"/>
+		<property name="Roughness" value="0.0"/>
+	</Material>
+	<Material ID="Unity_Material9" ptag="Paintings" type="unityShader">
+		<property name="Detail Normal" value="0.0"/>
+		<property name="Bump" value="0.0"/>
+		<property name="Normal" value="0.0"/>
+		<property name="Specular" value="0.0"/>
+		<property name="Detail Normal Scale" value="1.0"/>
+		<property name="Detail Mask" value="0.0"/>
+		<property name="Base Color" value="0.0"/>
+		<property name="Fresnel Reflectance 0" value="0.04"/>
+		<property name="Emission" value="0.0, 0.0, 0.0"/>
+		<property name="Normal Scale" value="1.0"/>
+		<property name="Albedo" value="1.0, 1.0, 1.0">
+			<texture fileIndex="0" filename="D:\Dropbox\_Projects_Current\DinkelJam\paintings\PaintingUV.jpg" name="PaintingUV" uvindex="0" uvname="PaintingUV" wrapU="1.0" wrapV="1.0"/>
+		</property>
 		<property name="Ambient Occlusion" value="0.0"/>
 		<property name="Opacity" value="1.0"/>
 		<property name="Smoothness" value="0.5"/>
@@ -129,7 +194,7 @@
 		<property name="Metallic" value="0.0"/>
 		<property name="Roughness" value="0.0"/>
 	</Material>
-	<Material ID="Unity_Material4" ptag="PaintingsMat" type="unityShader">
+	<Material ID="Unity_Material12" ptag="DoorFrame" type="unityShader">
 		<property name="Detail Normal" value="0.0"/>
 		<property name="Bump" value="0.0"/>
 		<property name="Normal" value="0.0"/>
@@ -150,5 +215,7 @@
 		<property name="Metallic" value="0.0"/>
 		<property name="Roughness" value="0.0"/>
 	</Material>
-	<ImageFiles/>
+	<ImageFiles>
+		<file color_correction="sRGB" filename="D:\Dropbox\_Projects_Current\DinkelJam\paintings\PaintingUV.jpg"/>
+	</ImageFiles>
 </catalog>
