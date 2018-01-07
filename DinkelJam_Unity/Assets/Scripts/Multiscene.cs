@@ -11,7 +11,7 @@ public class Multiscene : ScriptableObject
 {
    [SerializeField] private string _baseSceneName;
    [SerializeField] private string[] _additiveSceneNames;
-   [SerializeField] private string _singleScenesPath = "/Scenes/Single Scenes/";
+   [SerializeField] private string _singleScenesPath = "/Scenes/SingleScenes/";
          
    public string GetBaseSceneName()
    {
