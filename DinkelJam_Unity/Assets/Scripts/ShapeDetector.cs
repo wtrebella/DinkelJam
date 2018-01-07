@@ -7,18 +7,16 @@ public class ShapeDetector : MonoBehaviour {
 	[SerializeField] int _textureSize;
 
 	[Header ("Objects")]
-	[SerializeField] Transform _playerObj;
-	[SerializeField] Transform _goalObj;
+	Transform _playerObj;
+	Transform _goalObj;
 
 	[Header("Player Test")]
 	[SerializeField] Camera _sampleCamera;
 	RenderTexture _sampleTexture;
-	[SerializeField] Renderer _sampleRender;
 
 	[Header("Reference Test")]
 	[SerializeField] Camera _referenceCamera;
 	RenderTexture _referenceTexture;
-	[SerializeField] Renderer _referenceRender;
 
 	[Header("Test Transforms")]
 	[SerializeField] Transform[] _referenceTransforms;
@@ -29,37 +27,44 @@ public class ShapeDetector : MonoBehaviour {
 
 		_sampleCamera.targetTexture = _sampleTexture;
 		_sampleCamera.depthTextureMode = DepthTextureMode.Depth;
-		_sampleRender.material.mainTexture = _sampleTexture;
 
 		_referenceCamera.targetTexture = _referenceTexture;
 		_referenceCamera.depthTextureMode = DepthTextureMode.Depth;
-		_referenceRender.material.mainTexture = _referenceTexture;
 	}
 
-	void Update () {
+	public void SetTransforms(Transform goal, Transform playerObj) {
+		_playerObj = playerObj;
+		_goalObj = goal;
+	}
+
+	public float GetPercentage() {
+
+		if (_playerObj == null || _goalObj == null) {
+			Debug.LogError("Either the player object or the goal object were not properly set before trying to evaluate");
+			return 0.0f;
+		}
+
 		float totalPercentage = 0.0f;
+
 		for(int i = 0; i < _referenceTransforms.Length; i++) {
 			totalPercentage += EvaluateTextures(_referenceTransforms[i]);
 		}
 
 		//average percentages
 		totalPercentage /= _referenceTransforms.Length;
-		Debug.Log(totalPercentage);
+
+		return totalPercentage;
 	}
 
 
 	float EvaluateTextures(Transform reference) {
 
-		_sampleCamera.transform.position = reference.position;
-		_sampleCamera.transform.rotation = reference.rotation;
-		_referenceCamera.transform.position = reference.position;
-		_referenceCamera.transform.rotation = reference.rotation;
-
 		_playerObj.gameObject.SetActive(true);
 		_goalObj.gameObject.SetActive(false);
 
-		_playerObj.position = transform.position;
-		_playerObj.rotation = transform.rotation;
+		transform.position = _playerObj.position;
+		_sampleCamera.transform.position = reference.position;
+		_sampleCamera.transform.rotation = reference.rotation;
 
 		RenderTexture.active = _sampleTexture;
 		_sampleCamera.Render();
@@ -70,8 +75,9 @@ public class ShapeDetector : MonoBehaviour {
 		_playerObj.gameObject.SetActive(false);
 		_goalObj.gameObject.SetActive(true);
 
-		_goalObj.position = transform.position;
-		_goalObj.rotation = transform.rotation;
+		transform.position = _goalObj.position;
+		_referenceCamera.transform.position = reference.position;
+		_referenceCamera.transform.rotation = reference.rotation;
 
 		RenderTexture.active = _referenceTexture;
 		_referenceCamera.Render();
@@ -79,9 +85,6 @@ public class ShapeDetector : MonoBehaviour {
 		goalTexture.ReadPixels(new Rect(0, 0, _textureSize, _textureSize), 0, 0);
 		goalTexture.Apply();
 		RenderTexture.active = null;
-
-		_sampleRender.material.mainTexture = playerTexture;
-		_referenceRender.material.mainTexture = goalTexture;
 
 		float totalPossible = 0;
 
