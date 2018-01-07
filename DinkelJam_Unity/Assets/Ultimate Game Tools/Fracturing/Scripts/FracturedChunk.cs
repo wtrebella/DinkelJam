@@ -516,8 +516,12 @@ public class FracturedChunk : MonoBehaviour
         {
             m_bNonSupportedChunkStored = IsNonSupportedChunk;
 
-            transform.parent      = null;
-            GetComponent<Rigidbody>().isKinematic = false;
+			// CHANGE MADE BY DLASK
+			// For the sake of our game, the chunk will parent to the same object as the source
+            //transform.parent      = null;
+			transform.parent = FracturedObjectSource.transform.parent;
+
+			GetComponent<Rigidbody>().isKinematic = false;
             GetComponent<Collider>().isTrigger    = false;
             IsDetachedChunk       = true;
             IsNonSupportedChunk   = true;

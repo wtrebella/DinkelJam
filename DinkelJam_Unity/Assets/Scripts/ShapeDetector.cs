@@ -20,6 +20,9 @@ public class ShapeDetector : MonoBehaviour {
 
 	[Header("Test Transforms")]
 	[SerializeField] Transform[] _referenceTransforms;
+
+	[SerializeField] Renderer _referenceRender;
+	[SerializeField] Renderer _playerRender;
 	
 	void Awake() {
 		_sampleTexture = new RenderTexture(_textureSize, _textureSize, 24, RenderTextureFormat.R8, RenderTextureReadWrite.Default);
@@ -86,6 +89,17 @@ public class ShapeDetector : MonoBehaviour {
 		goalTexture.Apply();
 		RenderTexture.active = null;
 
+		_playerObj.gameObject.SetActive(true);
+		_goalObj.gameObject.SetActive(true);
+
+		if (_referenceRender != null) {
+			_referenceRender.material.mainTexture = goalTexture;
+		}
+
+		if (_playerRender != null) {
+			_playerRender.material.mainTexture = playerTexture;
+		}
+
 		float totalPossible = 0;
 
 		int totalMatching = 0;
@@ -97,7 +111,9 @@ public class ShapeDetector : MonoBehaviour {
 				Color goalCol = goalTexture.GetPixel(x, y);
 
 				totalPossible++;
-				if (playerCol != goalCol) {
+
+				if((goalCol == Color.black && playerCol == Color.black)
+				|| (goalCol != Color.black && playerCol != Color.black)) {
 					totalMatching++;
 				}
 			}
