@@ -9,9 +9,10 @@ using UnityEditor.SceneManagement;
 [CreateAssetMenu(fileName = "New Multiscene")]
 public class Multiscene : ScriptableObject 
 {
+   private const string _singleScenesPath = "/Scenes/SingleScenes/";
+   
    [SerializeField] private string _baseSceneName;
    [SerializeField] private string[] _additiveSceneNames;
-   [SerializeField] private string _singleScenesPath = "/Scenes/SingleScenes/";
          
    public string GetBaseSceneName()
    {
@@ -42,13 +43,29 @@ public class Multiscene : ScriptableObject
    {
       if (string.IsNullOrEmpty(_baseSceneName)) return;
       
-      EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
-      EditorSceneManager.OpenScene(GetScenePath(_baseSceneName), OpenSceneMode.Single);
-
-      for (int i = 0; i < _additiveSceneNames.Length; i++)
+      if (Application.isPlaying)
       {
-         string additiveSceneName = _additiveSceneNames[i];
-         EditorSceneManager.OpenScene(GetScenePath(additiveSceneName), OpenSceneMode.Additive);
+         SceneManager.LoadScene(_baseSceneName, LoadSceneMode.Single);
+         
+         for (int i = 0; i < _additiveSceneNames.Length; i++)
+         {
+            string additiveSceneName = _additiveSceneNames[i];
+            SceneManager.LoadScene(additiveSceneName, LoadSceneMode.Additive);
+         }
+      }
+      else
+      {
+         string baseScenePath = GetScenePath(_baseSceneName);
+         
+         EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo();
+         EditorSceneManager.OpenScene(baseScenePath, OpenSceneMode.Single);
+   
+         for (int i = 0; i < _additiveSceneNames.Length; i++)
+         {
+            string additiveSceneName = _additiveSceneNames[i];
+            string additiveScenePath = GetScenePath(additiveSceneName);
+            EditorSceneManager.OpenScene(additiveScenePath, OpenSceneMode.Additive);
+         }
       }
    }
 }
