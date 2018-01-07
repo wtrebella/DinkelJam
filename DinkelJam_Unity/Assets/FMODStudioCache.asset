@@ -13,16 +13,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 114537012100204098}
-  - {fileID: 114829046857402868}
+  - {fileID: 114282556930344178}
   EditorEvents:
   - {fileID: 114372004171251914}
   - {fileID: 114137695598707778}
   - {fileID: 114954601018883880}
   - {fileID: 114260726535951982}
   - {fileID: 114518088912895858}
-  MasterBankRef: {fileID: 114829046857402868}
+  MasterBankRef: {fileID: 114282556930344178}
   StringsBankRef: {fileID: 114537012100204098}
-  stringsBankWriteTime: 636509315581815565
+  stringsBankWriteTime: 636509301560000000
   cacheVersion: 2
 --- !u!114 &114010541192184618
 MonoBehaviour:
@@ -66,6 +66,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Timer
+  Min: 0
+  Max: 1
+  Default: 0
+--- !u!114 &114107647110617994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Shots
   Min: 0
   Max: 1
   Default: 0
@@ -123,7 +138,7 @@ MonoBehaviour:
   Path: event:/StoneDebris
   guid: 6cbba67161d4864e82a175433ed1c1eb
   Banks:
-  - {fileID: 114829046857402868}
+  - {fileID: 114282556930344178}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -160,7 +175,7 @@ MonoBehaviour:
   Path: event:/DustPoof
   guid: dcc3e1c9ba82ce448b748d0a375bce5e
   Banks:
-  - {fileID: 114829046857402868}
+  - {fileID: 114282556930344178}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -168,6 +183,39 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 420
+--- !u!114 &114282556930344178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: /Users/wtrebella/Repos/DinkelJam/DinkelJam_Unity/FMOD/Master Bank.bank
+  lastModified: 636509325650000000
+  LoadResult: 0
+  FileSizes:
+  - Name: 
+    Value: 2158624
+  Exists: 1
+--- !u!114 &114299429649398384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: HoldTrigger
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &114334462795845034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,14 +263,30 @@ MonoBehaviour:
   Path: event:/GunShot
   guid: 14ca88cd0f46c4458839ad4b9a18b25f
   Banks:
-  - {fileID: 114829046857402868}
+  - {fileID: 114282556930344178}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
-  Parameters: []
+  Parameters:
+  - {fileID: 114299429649398384}
   MinDistance: 0
   MaxDistance: 0
   Length: 821
+--- !u!114 &114447178214517974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Timer
+  Min: 0
+  Max: 1
+  Default: 0
 --- !u!114 &114515308460998064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -252,12 +316,12 @@ MonoBehaviour:
   Path: event:/ShellDrop
   guid: d5a58a9ee181fb41b71d8e18f20bffe4
   Banks:
-  - {fileID: 114829046857402868}
+  - {fileID: 114282556930344178}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: 114766523301816794}
+  - {fileID: 114107647110617994}
   MinDistance: 0
   MaxDistance: 0
   Length: 1232
@@ -291,8 +355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Path: FMOD\Master Bank.strings.bank
-  lastModified: 636509315581815565
+  Path: FMOD/Master Bank.strings.bank
+  lastModified: 636509301560000000
   LoadResult: 0
   FileSizes:
   - Name: 
@@ -564,12 +628,12 @@ MonoBehaviour:
   Path: event:/Music
   guid: a87f37d0b4c6284083cf3cd30b835b34
   Banks:
-  - {fileID: 114829046857402868}
+  - {fileID: 114282556930344178}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 114684893619524902}
+  - {fileID: 114447178214517974}
   MinDistance: 0
   MaxDistance: 0
   Length: 119069

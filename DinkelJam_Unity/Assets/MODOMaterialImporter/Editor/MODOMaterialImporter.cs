@@ -1487,7 +1487,7 @@ public class MODOMaterialImporter : AssetPostprocessor
 				else if (pendingTexture.texture.colorspace == MODOColorspace.linear)
 				{
 					textureImporter.textureType = TextureImporterType.Default;
-					textureImporter.linearTexture = true;
+               textureImporter.sRGBTexture = true;
 				}
 			}
 		}
