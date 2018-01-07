@@ -34,3 +34,5 @@ sysinfo.txt
 *.unitypackage
 DinkelJam_Unity/Library/
 DinkelJam_Unity/Temp/
+DinkelJam_Unity/fmod.log
+DinkelJam_Unity/fmod_editor.log
