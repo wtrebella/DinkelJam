@@ -93,11 +93,9 @@ public class ShapeDetector : MonoBehaviour {
 				Color playerCol = playerTexture.GetPixel(x, y);
 				Color goalCol = goalTexture.GetPixel(x, y);
 
-				if (goalCol != Color.black) {
-					totalPossible++;
-					if (playerCol != Color.black) {
-						totalMatching++;
-					}
+				totalPossible++;
+				if (playerCol != goalCol) {
+					totalMatching++;
 				}
 			}
 		}
