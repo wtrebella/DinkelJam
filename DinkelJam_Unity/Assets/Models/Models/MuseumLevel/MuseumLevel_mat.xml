@@ -1,9 +1,8 @@
 <?xml version="1.0" ?>
 <catalog>
 	<Version app="modo" build="472257" xml_file_format="1">1121</Version>
-	<useRootPath>1</useRootPath>
+	<useRootPath>0</useRootPath>
 	<PtagAsID>0</PtagAsID>
-	<RootPath>D:\Dropbox\unity games\DinkelJam\DinkelJam_Unity\Assets\Models\Models\MuseumLevel\</RootPath>
 	<Material ID="Unity_Material5" ptag="lightbulb" type="unityShader">
 		<property name="Detail Normal" value="0.0"/>
 		<property name="Bump" value="0.0"/>
