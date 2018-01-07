@@ -9,10 +9,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 61fdf5d2cbe3d4c458febc171bda62ce, type: 3}
-  m_Name: Game
+  m_Name: MainMenu
   m_EditorClassIdentifier: 
-  _baseSceneName: MuseumLevel
+  _baseSceneName: MainMenu
   _additiveSceneNames:
-  - VolumetricTest
   - Managers
-  _singleScenesPath: /Scenes/Single Scenes/
