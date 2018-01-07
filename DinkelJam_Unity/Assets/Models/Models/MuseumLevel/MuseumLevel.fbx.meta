@@ -108,6 +108,10 @@ ModelImporter:
     100200: Pedestal7
     100202: Pedestal8
     100204: Pedestal9
+    100206: BulletProofPedestal2
+    100208: BulletProofPedestal3
+    100210: BulletProofPedestal4
+    100212: BulletProofPedestal5
     400000: BaseSculpt_Male
     400002: Ceiling
     400004: Ceiling10
@@ -211,6 +215,10 @@ ModelImporter:
     400200: Pedestal7
     400202: Pedestal8
     400204: Pedestal9
+    400206: BulletProofPedestal2
+    400208: BulletProofPedestal3
+    400210: BulletProofPedestal4
+    400212: BulletProofPedestal5
     2100000: Dude
     2100002: Default
     2100004: FPSScale
@@ -297,6 +305,10 @@ ModelImporter:
     2300150: Pedestal7
     2300152: Pedestal8
     2300154: Pedestal9
+    2300156: BulletProofPedestal2
+    2300158: BulletProofPedestal3
+    2300160: BulletProofPedestal4
+    2300162: BulletProofPedestal5
     3300000: BaseSculpt_Male
     3300002: Ceiling
     3300004: Ceiling10
@@ -375,6 +387,10 @@ ModelImporter:
     3300150: Pedestal7
     3300152: Pedestal8
     3300154: Pedestal9
+    3300156: BulletProofPedestal2
+    3300158: BulletProofPedestal3
+    3300160: BulletProofPedestal4
+    3300162: BulletProofPedestal5
     4300000: BaseSculpt_Male
     4300002: Shell
     4300004: Wall
@@ -420,6 +436,10 @@ ModelImporter:
     4300084: BaseSculpt_Male2
     4300086: BaseSculpt_Male3
     4300088: ScaleBoy
+    4300090: Pedestal3
+    4300092: BulletProofPedestal2
+    4300094: Wall3
+    4300096: Wall4
     10800000: Directional Light
     10800002: Directional Light2
     10800004: Spot Light
