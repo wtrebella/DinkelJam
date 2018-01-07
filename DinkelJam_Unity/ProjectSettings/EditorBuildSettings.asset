@@ -4,4 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SingleScenes/InitScene.unity
+    guid: 9d6d4c6c3a05f4cf6b9a2775fdcef787
+  - enabled: 1
+    path: Assets/Scenes/SingleScenes/MainMenu.unity
+    guid: 0e2d0f951e6a9470ab3fc4d039b5164e
+  - enabled: 1
+    path: Assets/Scenes/SingleScenes/Gameplay.unity
+    guid: f5878739a5101424ea5867de6b91780a
+  - enabled: 1
+    path: Assets/Scenes/SingleScenes/Managers.unity
+    guid: 5f4c4b3fcced1483e818cb5c94752450
+  - enabled: 1
+    path: Assets/Scenes/SingleScenes/MuseumLevel.unity
+    guid: 1b2a88111ecfc422fac4becccec85413

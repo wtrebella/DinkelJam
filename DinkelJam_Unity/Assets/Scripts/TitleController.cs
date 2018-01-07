@@ -6,7 +6,6 @@ public class TitleController : MonoBehaviour
 {	
 	[SerializeField] private Animator _animator;
 	[SerializeField] private ParticleSystem _particles;
-	[SerializeField] private AudioSource _dinkelJamAudio;
 
 	void Start()
 	{
@@ -23,6 +22,5 @@ public class TitleController : MonoBehaviour
 	public void OnHitGround()
 	{
 		_particles.Play();
-		_dinkelJamAudio.Play();
 	}
 }
