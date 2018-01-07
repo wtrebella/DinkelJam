@@ -13,6 +13,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _baseSceneName: MuseumLevel
   _additiveSceneNames:
-  - VolumetricTest
   - Managers
-  _singleScenesPath: /Scenes/Single Scenes/
