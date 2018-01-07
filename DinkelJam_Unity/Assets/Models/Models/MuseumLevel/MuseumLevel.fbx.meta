@@ -102,6 +102,12 @@ ModelImporter:
     100188: Spot Light7
     100190: Spot Light8
     100192: Spot Light9
+    100194: ScaleBoy
+    100196: Pedestal5
+    100198: Pedestal6
+    100200: Pedestal7
+    100202: Pedestal8
+    100204: Pedestal9
     400000: BaseSculpt_Male
     400002: Ceiling
     400004: Ceiling10
@@ -199,6 +205,12 @@ ModelImporter:
     400188: Spot Light7
     400190: Spot Light8
     400192: Spot Light9
+    400194: ScaleBoy
+    400196: Pedestal5
+    400198: Pedestal6
+    400200: Pedestal7
+    400202: Pedestal8
+    400204: Pedestal9
     2100000: Dude
     2100002: Default
     2100004: FPSScale
@@ -279,6 +291,12 @@ ModelImporter:
     2300138: Light7
     2300140: Light8
     2300142: Light9
+    2300144: ScaleBoy
+    2300146: Pedestal5
+    2300148: Pedestal6
+    2300150: Pedestal7
+    2300152: Pedestal8
+    2300154: Pedestal9
     3300000: BaseSculpt_Male
     3300002: Ceiling
     3300004: Ceiling10
@@ -351,6 +369,12 @@ ModelImporter:
     3300138: Light7
     3300140: Light8
     3300142: Light9
+    3300144: ScaleBoy
+    3300146: Pedestal5
+    3300148: Pedestal6
+    3300150: Pedestal7
+    3300152: Pedestal8
+    3300154: Pedestal9
     4300000: BaseSculpt_Male
     4300002: Shell
     4300004: Wall
@@ -395,6 +419,7 @@ ModelImporter:
     4300082: Light
     4300084: BaseSculpt_Male2
     4300086: BaseSculpt_Male3
+    4300088: ScaleBoy
     10800000: Directional Light
     10800002: Directional Light2
     10800004: Spot Light
