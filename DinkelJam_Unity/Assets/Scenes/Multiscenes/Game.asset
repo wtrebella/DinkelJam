@@ -13,4 +13,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _baseSceneName: MuseumLevel
   _additiveSceneNames:
+  - Gameplay
   - Managers
