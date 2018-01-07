@@ -72,6 +72,9 @@ public class UltimateFracturingFPS : MonoBehaviour
    private Quaternion m_qInitialWeaponRot;
    private float m_fireTimer = 0;
 
+	private bool _previousShot = false;
+	private float _shootingTime = 0.0f;
+
    void Start()
    {
       m_v3MousePosition = Input.mousePosition;
@@ -134,6 +137,19 @@ public class UltimateFracturingFPS : MonoBehaviour
             Weapon.GetComponent<Renderer> ().enabled = true;
 
          bool bShot = ShouldShoot ();
+			if (bShot) {
+				_shootingTime += Time.deltaTime;
+			}
+
+			bool holdingDownFire = Input.GetKey (KeyCode.Space);
+			if (!holdingDownFire && _previousShot) {
+				//if the previous shot was true and current is false
+				//the player just stopped shooting
+				GameAudio.PlayOneShot("ShellDrop", new Dictionary<string, float>() {
+					{"Shots", _shootingTime}
+				});
+				_shootingTime = 0.0f;
+			}
          
          if (bShot) {
 
@@ -156,6 +172,8 @@ public class UltimateFracturingFPS : MonoBehaviour
                chunkRaycast.FromCenterImpact (hitInfo.point, FromCenterForce, FromCenterRadius, true);
             }
          }
+
+			_previousShot = holdingDownFire;
       }
       // Mouse-aim
 

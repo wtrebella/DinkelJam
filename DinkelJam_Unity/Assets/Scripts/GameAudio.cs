@@ -6,12 +6,19 @@ using FMODUnity;
 
 public class GameAudio : MonoBehaviour {
 
-	public static void PlayOneShot(string eventName) {
-		PlayOneShot(eventName, default(Vector3));
-	}
+	public static void PlayOneShot(string eventName, Dictionary<string, float> paramVals = null) {
+		FMOD.Studio.EventInstance eventInstance = FMODUnity.RuntimeManager.CreateInstance("event:/" + eventName);
 
-	public static void PlayOneShot(string eventName, Vector3 pos) {
-		FMODUnity.RuntimeManager.PlayOneShot("event:/" + eventName, pos);
+		if(paramVals != null) {
+			
+			foreach(KeyValuePair<string, float> pair in paramVals) {
+				FMOD.Studio.ParameterInstance paramInstance;
+				eventInstance.getParameter(pair.Key, out paramInstance);
+				paramInstance.setValue(pair.Value);
+			}
+		}
+
+		eventInstance.start();
 	}
 
 	public void PlayChunkDetachMarble() {
