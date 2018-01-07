@@ -345,7 +345,7 @@ public class FracturedChunk : MonoBehaviour
         m_fInvisibleTimer  = 0.0f;
     }
 
-    public void Impact(Vector3 v3Position, float fExplosionForce, float fRadius, bool bAlsoImpactFreeChunks)
+    public void ExplosionImpact(Vector3 v3Position, float fExplosionForce, float fRadius, bool bAlsoImpactFreeChunks)
     {
         if(GetComponent<Rigidbody>() != null && IsDestructibleChunk())
         {
@@ -378,6 +378,49 @@ public class FracturedChunk : MonoBehaviour
 
         FracturedObjectSource.NotifyImpact(v3Position);
     }
+   
+   public void FromCenterImpact(Vector3 v3Position, float fFromCenterForce, float fRadius, bool bAlsoImpactFreeChunks)
+   {
+      if(GetComponent<Rigidbody>() != null && IsDestructibleChunk())
+      {
+         List<FracturedChunk> listBreaks = new List<FracturedChunk>();
+
+         if(IsDetachedChunk == false)
+         {
+            // Compute random list of connected chunks that are detaching as well (we'll use the ConnectionStrength parameter).
+            listBreaks = ComputeRandomConnectionBreaks();
+            listBreaks.Add(this);
+            DetachFromObject();
+
+            foreach(FracturedChunk chunk in listBreaks)
+            {
+               chunk.DetachFromObject();
+               Vector3 mainObjCenter = chunk.FracturedObjectSource.transform.position;
+               Vector3 forceDir = (chunk.transform.position - mainObjCenter).normalized;
+               Vector3 force = fFromCenterForce * forceDir;
+               
+               chunk.GetComponent<Rigidbody>().AddForce(force, ForceMode.Impulse);
+            }
+         }
+
+         List<FracturedChunk> listRadius = FracturedObjectSource.GetDestructibleChunksInRadius(v3Position, fRadius, bAlsoImpactFreeChunks);
+
+         foreach(FracturedChunk chunk in listRadius)
+         {
+            chunk.DetachFromObject();
+            
+            Vector3 mainObjCenter = chunk.FracturedObjectSource.transform.position;
+            Vector3 forceDir = (chunk.transform.position - mainObjCenter).normalized;
+            Vector3 force = fFromCenterForce * forceDir;
+
+            chunk.GetComponent<Rigidbody>().AddForce(force, ForceMode.Impulse);
+         }
+      }
+
+      // Even if it is support chunk, play the sound and instance the prefabs
+
+      FracturedObjectSource.NotifyImpact(v3Position);
+   }
 
     public void OnCreateFromFracturedObject(FracturedObject fracturedComponent, int nSplitSubMeshIndex)
     {
