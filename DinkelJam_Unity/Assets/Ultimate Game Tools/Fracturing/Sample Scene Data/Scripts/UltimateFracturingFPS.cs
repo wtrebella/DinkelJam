@@ -116,6 +116,8 @@ public class UltimateFracturingFPS : MonoBehaviour
             m_fireTimer += Time.deltaTime;
             if (m_fireTimer > FireInterval) {
                m_fireTimer = 0;
+
+  			   GameAudio.PlayOneShot("GunShot");
                return true;
             }
          }
@@ -134,6 +136,7 @@ public class UltimateFracturingFPS : MonoBehaviour
          bool bShot = ShouldShoot ();
          
          if (bShot) {
+
             m_fRecoilTimer = RecoilDuration;
             if (AudioWeaponShot)
                AudioSource.PlayClipAtPoint (AudioWeaponShot, transform.position, WeaponShotVolume);

@@ -13,4 +13,14 @@ public class GameAudio : MonoBehaviour {
 	public static void PlayOneShot(string eventName, Vector3 pos) {
 		FMODUnity.RuntimeManager.PlayOneShot("event:/" + eventName, pos);
 	}
+
+	public void PlayChunkDetachMarble() {
+		//Debug.Log("Poof");
+		PlayOneShot("DustPoof");
+	}
+
+	public void PlayRubble() {
+		//Debug.Log("Debris");
+		PlayOneShot("StoneDebris");
+	}
 }
