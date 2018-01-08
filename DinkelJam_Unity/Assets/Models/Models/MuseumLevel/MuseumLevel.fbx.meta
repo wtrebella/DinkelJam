@@ -449,6 +449,49 @@ ModelImporter:
     4300110: Painting12
     4300112: Painting9
     4300114: Painting10
+    6400000: BulletProofPedestal2
+    6400002: BulletProofPedestal3
+    6400004: BulletProofPedestal4
+    6400006: BulletProofPedestal5
+    6400008: Ceiling2
+    6400010: Door_Fake
+    6400012: Door_Fake2
+    6400014: Floor
+    6400016: Light
+    6400018: Light2
+    6400020: Light3
+    6400022: Light4
+    6400024: Light5
+    6400026: Light6
+    6400028: Light7
+    6400030: Light8
+    6400032: Light9
+    6400034: Painting
+    6400036: Painting10
+    6400038: Painting12
+    6400040: Painting2
+    6400042: Painting3
+    6400044: Painting5
+    6400046: Painting6
+    6400048: Painting7
+    6400050: Painting8
+    6400052: Painting9
+    6400054: Pedestal
+    6400056: Pedestal2
+    6400058: Pedestal3
+    6400060: Pedestal4
+    6400062: Pedestal5
+    6400064: Pedestal9
+    6400066: ScaleBoy
+    6400068: Wall
+    6400070: Wall2
+    6400072: Wall3
+    6400074: Wall4
+    6400076: Wall_Door
+    6400078: Wall_Door2
+    6400080: Wall_Door3
+    6400082: WallsShell
+    6400084: Window
     10800000: Directional Light
     10800002: Directional Light2
     10800004: Spot Light
@@ -493,7 +536,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
